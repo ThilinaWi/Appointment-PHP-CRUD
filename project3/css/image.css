@@ -1,0 +1,11 @@
+/* Add background image to the entire page */
+body {
+  background-image: url('kk.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover; /* Ensure the image covers the whole page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  height: 100vh; /* Set the height of the page to 100% of the viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}

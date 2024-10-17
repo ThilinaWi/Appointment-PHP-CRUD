@@ -1,0 +1,160 @@
+nav{
+    position: absolute;
+    display: inline-flex;
+    top:0vh;
+    left:0vw;
+    width:100%;
+    height: 7vh;
+    background-color: #001149;
+    color:#fff
+}
+
+.navItem{
+    position: relative;
+    display: inline-flex;
+    left:35vw;  
+}
+nav h2{
+    margin-left:2vw;
+    font-size: 28px;
+    margin-top:1.5vh;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+nav ul li{
+    margin-top: 1vh;
+    margin-left: 5vw;
+    padding-right: vw;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navItem button{
+    position: relative;
+    margin-right:-5vw ;
+    margin-left: 16vh;
+    margin-top: 2vh;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    font-size: 14px;
+    font-weight: 600;
+    color: #001149;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #929191;
+}
+
+.navItem h4{
+  position: relative;
+  left: 10vw;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+
+}
+.navItem a{
+    color: rgb(255, 255, 255);
+}
+
+/* Footer */
+footer{
+    position:absolute;
+    display: -ms-flexbox;
+    top:83.3vh;
+    left:-0vw;
+    bottom: 0vh;
+    width:100%;
+    background-color: #001149;
+    height: 12vh;
+
+}
+.scf{
+    position: relative;
+    display: flex;
+    right:20px;
+    color: #ffffff;
+}
+.scf a{
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: Lato;
+    color: #ffffff;  
+}
+.follow{
+    position:relative;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* left:40%; */
+    top:6vh;
+
+}
+
+.follow img{
+
+    display: inline;
+    width:30px;
+    /* top:4vh;
+    right:-5px;    */
+}
+
+.policy{
+    position: relative;
+    display: flex;
+    top:4vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.policy a{
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.contact h3{
+    position: relative;
+    display: flex;
+    top:-12vh;
+    left:-2vw;
+    justify-content: right;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+.contact p{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    top:-10vh;
+    left:-1vw;
+    font-family: Lato;
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+
+.cright{
+    position: relative;
+    display: flex;
+    top:8vh;
+    width: 100%;
+    height:5vh;
+    background-color: #00093d;
+    justify-content: center;
+    align-items: center;
+}
+.cright p{
+    color:#a8a3a3;
+}
